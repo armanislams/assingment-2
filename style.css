@@ -1,0 +1,127 @@
+/* font api */
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.font-noto {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* shared section */
+.flex{
+    display: flex;
+}
+
+.text-orange{
+    color: rgba(233, 90, 8, 1);
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* banner section */
+.hero{
+    margin: 0 150px;
+    align-items: flex-end;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+.hero-heading{
+    font-size: 3em;
+}
+
+/* plants section */
+.plants{
+    /* width: 80dvw;
+    position: absolute; */
+}
+.plant-head{
+    text-align: center;
+}
+.plant-title{
+    font-weight: 500;
+    font-size: 3em;
+}
+.plant-des{
+    font-size: 1.125rem;
+}
+/* products section */
+.product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 200px 150px 150px;
+}
+
+.add-to-cart{
+    background-color: rgba(233, 90, 8, 1);
+    width: 250px;
+    height: 50px;
+}
+.product a{
+    text-decoration: none;
+    color: black;
+}
+/* plants lover section */
+.plants-lover{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 0 150px;
+}
+.plants-lover-img{
+    /* background-image: url(assets/flower-store.png);
+    background-repeat: no-repeat;    */
+    position: relative;
+    display: inline-block;
+}
+.main-img{
+  display: block;
+    
+}
+
+.badge{
+   position: absolute;
+  top: -100px;
+  right: -130px;
+  width: 220px;
+  background: transparent;
+  box-shadow: black;
+}
+.badge:hover{
+    animation: spin 1s infinite;
+}
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.plants-lover li{
+    margin-bottom: 20px;
+}
