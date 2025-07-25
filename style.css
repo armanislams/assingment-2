@@ -53,18 +53,12 @@ nav li a {
     flex-direction: column;
     font-weight: 400;
 }
-.hero-img{
-    /* width: 100%; */
-}
+
 .hero-heading{
     font-size: 3em;
 }
 
 /* plants section */
-.plants{
-    /* width: 80dvw;
-    position: absolute; */
-}
 
 .plant-head-1{
     text-align: center;
@@ -105,8 +99,6 @@ nav li a {
     margin: 0 150px;
 }
 .plants-lover-img{
-    /* background-image: url(assets/flower-store.png);
-    background-repeat: no-repeat;    */
     position: relative;
     display: inline-block;
 }
@@ -164,7 +156,6 @@ nav li a {
 }
 .img-container{
     max-width: 1140px;
-    /* width: 100%; */
     display: grid;
     margin: 0 150px;
     grid-template-columns: repeat(2, 360px 750px) ;
@@ -259,6 +250,15 @@ footer ul li {
         height: 100%;
 
     }
+    .hero-heading{
+        font-size: 1.5rem;
+    }
+    .hero-des, .plant-des{
+        font-size: smaller;
+    }
+    .hero-heading, .plant-title{
+        margin-bottom: 5px;
+    }
     .main-img{
         width: 95vw;
     }
@@ -329,9 +329,7 @@ footer ul li {
             display: inline;
         }
         .news-box{
-            /* width: 365px; */
             width: 220px;
-            /* height: 50px; */
         }
         .news-btn{
             width: 100px;
