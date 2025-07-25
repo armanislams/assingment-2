@@ -12,15 +12,15 @@
 </head>
 <body style="background-color: rgba(245 248 255);">
     <header>
-        <nav>
+        <nav class="nav">
             <div class="nav-img">
                 <img src="assets/logo.png" alt="">
             </div>
             <div class="nav-list">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About Us</a></li>
+                    <li class="nav-hide"><a href="">Home</a></li>
+                    <li class="nav-hide"><a href="">Shop</a></li>
+                    <li class="nav-hide"><a href="">About Us</a></li>
                     <li><a href=""><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
                 </ul>
             </div>
@@ -28,22 +28,22 @@
     </header>
     <main>
         <!-- hero section -->
-        <section>
+        <section class="hero-sec">
             <div class="hero flex">
-            <div class="hero-text flex">
-                <h3 class="hero-heading font-noto">ALWAYS <span class="text-orange">FRESH <br> FLOWERS</span></h3>
-                <p class="hero-des font-inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                <div class="hero-text flex">
+                    <h3 class="hero-heading font-noto">ALWAYS <span class="text-orange">FRESH <br> FLOWERS</span></h3>
+                    <p class="hero-des font-inter">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                </div>
+                <div>
+                    <img src="assets/hero-flower.png" alt="" class="hero-img">
+                </div>
             </div>
-            <div class="hero-img">
-                <img src="assets/hero-flower.png" alt="">
-            </div>
-        </div>
         </section>
         <!-- products section -->
         <section>
             <div class="plants">
-            <div class="plant-head">
-                <h3 class="plant-title font-noto"><span class="text-orange">Our</span> Plants</h3>
+            <div class="plant-head-1">
+                <h3 class="plant-title text3 font-noto"><span class="text-orange">Our</span> Plants</h3>
                 <p class="plant-des">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
             <div class="products">
@@ -104,41 +104,40 @@
         <!-- plants lover section -->
         <section>
             <div class="plants-lover">
-            <div class="plants-lover-img">
-                <img src="assets/flower-store.png" alt="" class="main-img">
-                <img src="assets/trusted-badge.png" alt="" class="badge">
+                <div class="plants-lover-img">
+                    <img src="assets/flower-store.png" alt="" class="main-img">
+                    <img src="assets/trusted-badge.png" alt="" class="badge">
+                </div>
+                <div class="plants-lover-des">
+                    <h3 class="font-noto text3 plant-head">Flower and Plants Lover</h3>
+                    <ul class="font-inter">
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                        <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3 class="font-noto" style="font-size: 3rem;">Flower and Plants Lover</h3>
-                <ul class="font-inter" style="font-size: 1.125rem;">
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                </ul>
-            </div>
-        </div>
         </section>
         <!-- deal section -->
-        <section>
+        <section class="deals">
             <div>
-            <div class="deal-heading" style="text-align: center;">
-                <h3 style="font-size: 3rem; font-weight: 500;"><span class="font-noto text-orange">Latest</span>  Deals</h3>
-                <p class="font-inter" style="font-size: 1.125rem">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            </div>
-            <div class="img-container">
-                <div class="deal-img-1 deal-style" id="img1">
-                        <h3 class="font-noto">60% Off | Bloom    Plant</h3>
-                         <a href="" style="color: white" class="font-inter">Shop Now</a>
+                <div class="deal-heading" style="text-align: center;">
+                    <h3 id="deal-head" style="font-size: 3rem; font-weight: 500;"><span class="font-noto text-orange">Latest</span>  Deals</h3>
+                    <p id="deal-des" class="font-inter" style="font-size: 1.125rem">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
-                <div class="deal-img-2 deal-style" id="img2">
-                        <h3 class="font-noto">30% Off | Ana  Plant</h3>
-                         <a href="" style="color: white" class="font-inter">Shop Now</a>
-                </div>
-                <div class="deal-img-3 deal-style" id="img3">
-                        <h3 class="font-noto">25% Off | Zabo Plant</h3>
-                         <a href="" style="color: white" class="font-inter">Shop Now</a>
-                </div>
-
+                <div class="img-container">
+                    <div class="deal-img-1 deal-style" id="img1">
+                            <h3 class="font-noto">60% Off | Bloom    Plant</h3>
+                            <a href="" style="color: white" class="font-inter">Shop Now</a>
+                    </div>
+                    <div class="deal-img-2 deal-style" id="img2">
+                            <h3 class="font-noto ">30% Off | Ana  Plant</h3>
+                            <a href="" style="color: white" class="font-inter">Shop Now</a>
+                    </div>
+                    <div class="deal-img-3 deal-style text3" id="img3">
+                            <h3 class="font-noto">25% Off | Zabo Plant</h3>
+                            <a href="" style="color: white" class="font-inter">Shop Now</a>
+                    </div>
             </div>
         </div>
         </section>
