@@ -200,15 +200,18 @@ nav li a {
     border: none; 
     padding-left: 15px;
 }
+.news-form{
+    display: flex;
+}
 .news-btn{
-    height: 50px; 
-    width: 185px; 
+    height: 52.5px; 
+    width: 190px; 
     padding: 15px 55px; 
     font-weight: 500; 
     font-style: 1.125rem; 
     background-color: rgb(255, 102, 0); 
     color: white; 
-    border: none;"
+    border: none;
 }
 /* footer section */
 footer{
