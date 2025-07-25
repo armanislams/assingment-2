@@ -198,6 +198,27 @@ nav li a {
     flex-direction: column;
     
 }
+.news-head-title{
+     font-weight: 400;
+     color: white; 
+     font-size: 3rem;"
+}
+.news-box{
+    width: 645px; 
+    height: 50px; 
+    border: none; 
+    padding-left: 15px;
+}
+.news-btn{
+    height: 50px; 
+    width: 185px; 
+    padding: 15px 55px; 
+    font-weight: 500; 
+    font-style: 1.125rem; 
+    background-color: rgb(255, 102, 0); 
+    color: white; 
+    border: none;"
+}
 /* footer section */
 footer{
     display: flex;
@@ -238,11 +259,22 @@ footer ul li {
         height: 100%;
 
     }
+    .main-img{
+        width: 95vw;
+    }
     .product{
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
         margin: 0;
         margin-bottom: 40px;
+        margin-left: 10px;
+    }
+    .pr-img{
+        width: 100%;
+
+    }
+    .add-to-cart{
+        width: 100%;
     }
     .products{
         margin: 0;
@@ -278,7 +310,7 @@ footer ul li {
         margin-bottom: 50px ;
     }
     .text3{
-        font-size: medium;
+        font-size: 1.75rem;
     }
         .deal-heading{
             display: inline;
@@ -292,12 +324,39 @@ footer ul li {
             width: 100%;
             background-repeat: no-repeat;
         }
-        .news-heads{
-            font-size: small;
+        .news-head-title{
+            font-size: 1.5rem;
+            display: inline;
         }
-        footer{
+        .news-box{
+            /* width: 365px; */
+            width: 220px;
+            /* height: 50px; */
+        }
+        .news-btn{
+            width: 100px;
+            padding: 0  ;
+            height: 52px;
+        }
+        .news-form{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+        .footer{
             display: flex;
             flex-direction: column;
+            margin: 0;
+            padding-left: 0;
+            margin-bottom: 10px;
         }
-  
+        .footer-list ul{
+        padding: 0;
+        }
+        .socials{
+            margin-bottom: 100px;
+        }
+        
 }
